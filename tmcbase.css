@@ -12,38 +12,39 @@
 
 /* Basic styles to be used with all devices and under all conditions */
 
-
-
 /* Display HTML5 structural elements as blocks */
 
-article, aside, figure, figcaption, footer, hgroup, header,
-section, nav {
-   display: block;
+article,
+aside,
+figure,
+figcaption,
+footer,
+hgroup,
+header,
+section,
+nav {
+  display: block;
 }
-
 
 /* Set the default page element styles */
 
 body {
-   margin: 0px;
-   width: 100%;
+  margin: 0px;
+  width: 100%;
 }
 
 body * {
-
-   font-family: Verdana, Geneva, sans-serif;
-   font-size: 100%;
-   font-weight: inherit;
-   line-height: 1.2em;
-   margin: 0px;
-   padding: 0px;
-   text-decoration: none;
-   vertical-align: baseline;
-
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: 1.2em;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  vertical-align: baseline;
 }
 
-ul, ol {
-   list-style: none;
+ul,
+ol {
+  list-style: none;
 }
-
-

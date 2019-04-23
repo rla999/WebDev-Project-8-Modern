@@ -13,23 +13,20 @@
 */
 
 body {
-
-
-   -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
-                    rgba(31, 61, 31, 0.9) -20px 0px 25px;
-   -webkit-box-shadow: rgba(101, 101, 101, 0.9) 20px 0px 25px,
-                    rgba(101, 101, 101, 0.9) -20px 0px 25px;
-   box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
-                    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+  -webkit-box-shadow: rgba(101, 101, 101, 0.9) 20px 0px 25px,
+    rgba(101, 101, 101, 0.9) -20px 0px 25px;
+  box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+    rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
 aside div {
-   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=75)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=75)";
 
-   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
 
-   opacity: 0.75;
+  opacity: 0.75;
 
-   box-shadow: rgba(101, 101, 101, 0.7) 5px 5px 10px;
+  box-shadow: rgba(101, 101, 101, 0.7) 5px 5px 10px;
 }
-
