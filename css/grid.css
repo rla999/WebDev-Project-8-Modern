@@ -1,0 +1,32 @@
+/* Resets */
+* {
+  box-sizing: border-box;
+  /* padding: 0 !important; */
+  /* margin: 0 !important; */
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+/* Resets end */
+
+.wrapper {
+  display: grid;
+  /* grid-template-columns: 1fr 5fr 1fr; */
+  grid-template-columns: repeat(10, auto);
+}
+
+/* .wrapper > div {
+  border: 1px dashed #777;
+} */
+
+/* .image-container {
+  background: pink;
+} */
