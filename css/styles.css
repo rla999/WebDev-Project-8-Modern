@@ -62,12 +62,9 @@ h2 {
   letter-spacing: 3px;
 }
 
-main {
-  background: #fff;
-}
-
 main,
 aside {
+  background: #fff;
   margin: 0 10px 10px;
   padding: 20px;
 }
@@ -143,7 +140,8 @@ aside {
     margin-top: 50px;
   }
 
-  main, aside {
+  main,
+  aside {
     margin: 0;
   }
 
