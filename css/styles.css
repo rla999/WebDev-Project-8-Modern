@@ -41,7 +41,6 @@ aside > div {
 }
 
 aside {
-  /* background-color: #fff; */
   margin: 0 10px 10px;
   padding: 20px;
 }
@@ -81,19 +80,37 @@ aside {
 
 @media screen and (min-width: 768px) {
   .horizontal ul {
-    /* border: 1px solid yellow; */
     flex-direction: row;
-    /* flex-wrap: wrap; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .horizontal a {
     background: #bb697b;
-    border: 1px solid #fff;
-    border-radius: 10px;
+    /* border: 1px solid #fff; */
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    /* border-radius: 10px; */
+    box-shadow: inset 5px -5px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    position: relative;
   }
-  
+
+  .horizontal a::after {
+    content: "\f138";
+    font-family: fontawesome;
+    font-size: 24px;
+    margin-left: auto;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+  }
+
+  .horizontal a:hover::after {
+    content: "\f137";
+  }
+
   .horizontal li:nth-child(even) a {
     background: #965064;
   }
