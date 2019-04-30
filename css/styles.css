@@ -15,6 +15,12 @@ img {
 }
 /* Resets end */
 
+header > img {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
+
 /* Main */
 body {
   background-color: #6b8c50;
@@ -31,16 +37,6 @@ h2 {
 main,
 aside {
   background-color: #fff;
-  margin: 0 10px 10px;
-  padding: 20px;
-}
-
-aside > div {
-  border: 1px solid black;
-  margin: 10px 0;
-}
-
-aside {
   margin: 0 10px 10px;
   padding: 20px;
 }
@@ -76,7 +72,7 @@ aside {
   background: #fff;
   color: #415234;
 }
-/* Navigation end */
+
 
 @media screen and (min-width: 768px) {
   .horizontal ul {
@@ -124,3 +120,43 @@ aside {
     border-bottom: 1px solid #fff;
   }
 }
+
+/* Navigation end */
+
+/* aside */
+
+aside > div {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+aside {
+  margin: 0 10px 10px;
+  padding: 20px;
+}
+
+aside h1 {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+aside p {
+  margin: 0;
+  text-align: center;
+}
+
+#div1 h1 {
+  background: #5857ff;
+  color: #fff;
+  margin: 0;
+}
+
+#div1 p {
+  background: #9e9eff;
+  margin: 0;
+}
+
+/* aside end */
