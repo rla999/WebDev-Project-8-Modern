@@ -23,7 +23,7 @@ header > img {
 
 /* Main */
 body {
-  background-color: #6b8c50;
+  background: #6b8c50;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 16px;
 }
@@ -34,9 +34,12 @@ h2 {
   letter-spacing: 3px;
 }
 
+main {
+  background: #fff;
+}
+
 main,
 aside {
-  background-color: #fff;
   margin: 0 10px 10px;
   padding: 20px;
 }
@@ -125,6 +128,7 @@ aside {
 /* aside */
 
 aside > div {
+  background: #fff;
   border: 1px solid black;
   border-radius: 8px;
   margin: 10px 0;
@@ -150,39 +154,48 @@ aside p {
 }
 
 #div1 h1 {
-  background-color: rgba(88, 87, 255, 0.75);
+  background: rgba(88, 87, 255, 0.75);
   color: rgba(241, 255, 241, 0.75);
 }
 
 #div1 p {
-  background-color: rgba(158, 158, 255, 0.75);
+  background: rgba(158, 158, 255, 0.75);
 }
 
 #div2 h1 {
-  background-color: rgba(128, 128, 0, 0.75);
+  background: rgba(128, 128, 0, 0.75);
   color: rgba(241, 255, 241, 0.75);
 }
 
 #div2 p {
-  background-color: rgba(228, 228, 30, 0.75);
+  background: rgba(228, 228, 30, 0.75);
 }
 
 #div3 h1 {
-  background-color: rgba(207, 66, 207, 0.75);
+  background: rgba(207, 66, 207, 0.75);
   color: rgba(241, 255, 241, 0.75);
 }
 
 #div3 p {
-  background-color: rgba(232, 156, 232, 0.75);
+  background: rgba(232, 156, 232, 0.75);
 }
 
 #div4 h1 {
-  background-color: rgba(103, 160, 103, 0.75);
+  background: rgba(103, 160, 103, 0.75);
   color: rgba(241, 255, 241, 0.75);
 }
 
 #div4 p {
-  background-color: rgba(172, 204, 172, 0.75);
+  background: rgba(172, 204, 172, 0.75);
 }
 
 /* aside end */
+
+/* footer */
+footer {
+  background: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+/* footer end */
