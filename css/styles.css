@@ -73,7 +73,6 @@ aside {
   color: #415234;
 }
 
-
 @media screen and (min-width: 768px) {
   .horizontal ul {
     flex-direction: row;
@@ -88,7 +87,7 @@ aside {
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
     /* border-radius: 10px; */
-    box-shadow: inset 5px -5px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 5px -5px 20px 0px rgbaa(0, 0, 0, 0.25, 0.75);
     display: flex;
     position: relative;
   }
@@ -129,6 +128,7 @@ aside > div {
   border: 1px solid black;
   border-radius: 8px;
   margin: 10px 0;
+  overflow: hidden;
 }
 
 aside {
@@ -145,18 +145,44 @@ aside h1 {
 
 aside p {
   margin: 0;
+  padding: 10px;
   text-align: center;
 }
 
 #div1 h1 {
-  background: #5857ff;
-  color: #fff;
-  margin: 0;
+  background-color: rgba(88, 87, 255, 0.75);
+  color: rgba(241, 255, 241, 0.75);
 }
 
 #div1 p {
-  background: #9e9eff;
-  margin: 0;
+  background-color: rgba(158, 158, 255, 0.75);
+}
+
+#div2 h1 {
+  background-color: rgba(128, 128, 0, 0.75);
+  color: rgba(241, 255, 241, 0.75);
+}
+
+#div2 p {
+  background-color: rgba(228, 228, 30, 0.75);
+}
+
+#div3 h1 {
+  background-color: rgba(207, 66, 207, 0.75);
+  color: rgba(241, 255, 241, 0.75);
+}
+
+#div3 p {
+  background-color: rgba(232, 156, 232, 0.75);
+}
+
+#div4 h1 {
+  background-color: rgba(103, 160, 103, 0.75);
+  color: rgba(241, 255, 241, 0.75);
+}
+
+#div4 p {
+  background-color: rgba(172, 204, 172, 0.75);
 }
 
 /* aside end */
