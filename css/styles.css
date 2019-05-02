@@ -21,34 +21,6 @@ header > img {
   width: 50%;
 }
 
-/* Global/Grid Area */
-
-.wrapper {
-  display: grid;
-  grid-template-areas:
-    "h h h h h h h h h h h h"
-    ". . . m m m m a a . . ."
-    "f f f f f f f f f f f f";
-  grid-template-columns: repeat(12, 1fr);
-}
-
-header {
-  grid-area: h;
-}
-
-main {
-  grid-area: m;
-}
-
-aside {
-  grid-area: a;
-}
-
-footer {
-  grid-area: f;
-}
-/* Global Area end */
-
 /* Main */
 body {
   background: #6b8c50;
@@ -105,10 +77,37 @@ aside {
   .horizontal ul {
     flex-direction: row;
   }
+
+  /* Global/Grid Area */
+
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+      "h h h h h h h h h h h h"
+      ". . . m m m m a a . . ."
+      "f f f f f f f f f f f f";
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  header {
+    grid-area: h;
+  }
+
+  main {
+    grid-area: m;
+  }
+
+  aside {
+    grid-area: a;
+  }
+
+  footer {
+    grid-area: f;
+  }
+  /* Global Area end */
 }
 
 @media screen and (max-width: 768px) {
-
   header img {
     max-width: 300px;
   }
