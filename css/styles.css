@@ -108,35 +108,17 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper {
-    display: grid;
-    grid-template-areas:
-      "h h h h h h h h h h h h"
-      ". . . m m m m a a . . ."
-      "f f f f f f f f f f f f";
-    /* grid-template-columns: repeat(12, 1fr); */
-  }
-
-  header {
-    grid-area: h;
-  }
 
   header img {
     max-width: 300px;
   }
 
-  main {
-    grid-area: m;
-  }
-
   aside {
     background: #fff;
-    grid-area: a;
     padding-right: 20px;
   }
 
   footer {
-    grid-area: f;
     margin-top: 50px;
   }
 
