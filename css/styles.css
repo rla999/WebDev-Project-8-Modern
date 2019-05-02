@@ -37,8 +37,9 @@ h2 {
 main,
 aside {
   background: #fff;
-  margin: 0 10px 10px;
-  padding: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  /* padding: 20px; */
 }
 
 /* Main end */
@@ -73,6 +74,10 @@ aside {
   color: #415234;
 }
 
+.img-wrapper {
+  padding: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .horizontal ul {
     flex-direction: row;
@@ -83,10 +88,10 @@ aside {
   .wrapper {
     display: grid;
     grid-template-areas:
-      "h h h h h h h h h h h h"
-      ". . . m m m m a a . . ."
-      "f f f f f f f f f f f f";
-    grid-template-columns: repeat(12, 1fr);
+      "h h h h"
+      ". m a ."
+      "f f f f";
+    grid-template-columns: 1fr minmax(100px, 800px) minmax(300px, 400px) 1fr;
   }
 
   header {
@@ -95,10 +100,14 @@ aside {
 
   main {
     grid-area: m;
+    padding-left: 10px;
+    padding-right: 5px;
   }
 
   aside {
     grid-area: a;
+    padding-left: 5px;
+    padding-right: 10px;
   }
 
   footer {
@@ -176,11 +185,6 @@ aside > div {
   border-radius: 8px;
   margin: 10px 0;
   overflow: hidden;
-}
-
-aside {
-  margin: 0 10px 10px;
-  padding: 20px;
 }
 
 aside h1 {
